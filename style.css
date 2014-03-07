@@ -1,0 +1,54 @@
+/*
+ Theme Name:     Ovoid Fluxus Child
+ Theme URI: http://themeforest.net/item/fluxus-portfolio-theme-for-photographers/3854385
+ Description:    Fluxus Child Theme
+ Author:         Syllogic Consultants
+ Author URI:     http://www.syllogic.in
+ Template:       fluxus
+ Version:        1.0.0
+*/
+
+@import url("../fluxus/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.sidebar1 {
+    border: 0px none;
+    margin-left: 0px;
+    padding: 0px;
+    width: 275px;
+}
+.sidebar1 {
+    width: 240px;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    float: left;
+    padding: 0px 35px 0px 0px;
+    border-right: 1px solid #EBEBEB;
+    word-wrap: break-word;
+}
+.sidebar1 .viewport {
+    height: 100%;
+}
+.sidebar1 .title {
+    text-align: right;
+    padding: 2px 0px 25px;
+    font: 700 23px/1em "Lato","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.sidebar1 .title, .sidebar1 .subtitle, .widget-title, #comments .comments-title, #reply-title {
+    text-align: left;
+    color: #FFF;
+}
+.entry-header img {
+    width: 70%;
+}
+
+
+.post-image .cover {
+    width: 70%;
+}
+.hide_text, .hide_image{
+	display:none !important;
+}
